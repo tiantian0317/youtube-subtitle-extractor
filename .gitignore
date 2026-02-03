@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Output files
+*.srt
+*.vtt
+*.json
+*.txt
+!requirements.txt
+!url.txt
+!README.md
+!USAGE.md
+
+# Subtitle output directories
+subtitles/
+output/
+subs/
+
+# Logs
+*.log
+errors.json
+
+# Test files
+test_*.srt
+test_*.json
+test_*.vtt
+
+# OS
+Thumbs.db
+.DS_Store

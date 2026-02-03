@@ -1,0 +1,44 @@
+{
+  "description": "YouTube 字幕提取工具配置文件示例",
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw",
+      "language": "en",
+      "format": "srt",
+      "output": "me_at_the_zoo.srt"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VIDEO_ID",
+      "language": "zh-Hans",
+      "format": "json",
+      "output": "video.json"
+    }
+  ],
+  "global_settings": {
+    "preserve_formatting": false,
+    "default_language": "en",
+    "default_format": "text",
+    "output_directory": "./output",
+    "request_delay": 2,
+    "retry_on_failure": true,
+    "max_retries": 3
+  },
+  "proxy_settings": {
+    "enabled": false,
+    "type": "rotating",
+    "pool_size": 10,
+    "proxies": [
+      {
+        "type": "http",
+        "url": "http://proxy1:port",
+        "username": "",
+        "password": ""
+      }
+    ]
+  },
+  "logging": {
+    "enabled": true,
+    "level": "INFO",
+    "log_file": "extractor.log"
+  }
+}

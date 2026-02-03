@@ -1,0 +1,3 @@
+# YouTube 字幕提取工具依赖
+requests>=2.31.0
+defusedxml>=0.7.1
