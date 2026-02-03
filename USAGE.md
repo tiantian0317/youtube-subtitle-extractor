@@ -1,26 +1,22 @@
 # YouTube 字幕提取工具 - 使用指南
 
-🖥️ GUI 版本
+## 🖥️ GUI 版本
+
 为了方便使用，我们提供了图形界面版本，无需命令行操作。
 
-下载与使用
-下载 GUI 版本：
+### 下载与使用
 
-YoutubeSubGet.exe (Windows)
+1. **下载 GUI 版本**：
+   - [YoutubeSubGet.exe](https://github.com/tiantian0317/youtube-subtitle-extractor/releases/download/1.0/YoutubeSubGet.exe) (Windows)
 
-截图预览：
-https://github.com/tiantian0317/youtube-subtitle-extractor/blob/main/%25E6%2590%259C%25E7%258B%2597%25E6%2588%25AA%25E5%259B%25BE20260203175231.png
+2. **截图预览**：
+   ![GUI 截图](https://github.com/tiantian0317/youtube-subtitle-extractor/blob/main/%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20260203175231.png)
 
-使用说明：
-
-直接双击运行 YoutubeSubGet.exe
-
-输入 YouTube 视频链接
-
-选择字幕语言和输出格式
-
-点击提取按钮即可获得字幕文件
-
+3. **使用说明**：
+   - 直接双击运行 `YoutubeSubGet.exe`
+   - 输入 YouTube 视频链接
+   - 选择字幕语言和输出格式
+   - 点击提取按钮即可获得字幕文件
 ## 快速开始
 
 ### 1. 安装依赖
@@ -193,4 +189,5 @@ pip install requests defusedxml
 ## 更多信息
 
 详细测试结果请查看：`TEST_RESULTS.md`
+
 
